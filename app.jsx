@@ -37,7 +37,7 @@ class Timer extends React.Component {
 	stopTimer() {
 		clearInterval(this.timer);
 		this.setState({
-			active: true,
+			active: true
 		});
 	}
 	resetTimer() {
